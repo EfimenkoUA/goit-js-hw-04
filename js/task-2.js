@@ -2,7 +2,7 @@ function calcAverageCalories(days) {
     let counter = 0;
 
     if (days.length === 0) {
-        return [];
+        return 0;
     }
 
     for (let day in days) {
